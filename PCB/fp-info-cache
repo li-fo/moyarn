@@ -1,4 +1,4 @@
-24178633640687608
+24190660334901324
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -66072,6 +66072,13 @@ mounting hole 8.4mm m8
 0
 9
 1
+MountingHole
+MountingHole_10mm_M10
+Mounting Hole 8.4mm, no annular, M8
+mounting hole 8.4mm no annular m8
+0
+0
+0
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMRA-D3.3mm_L7mm_7466300R_Horizontal
 Right-angle SMD mounting hardware, inside through hole 3.3mm, lenght 7mm, total height 5mm, Würth electronics 7466300R (https://www.we-online.com/components/products/datasheet/7466300R.pdf)
@@ -98755,6 +98762,48 @@ knit_forest_icon_kicad
 0
 0
 0
+footprints
+rp2040-zero-smd-pads-cutout_kleeb
+
+
+0
+33
+33
+footprints
+rp2040-zero-smd-pads_kleeb
+
+
+0
+33
+33
+footprints
+rp2040-zero-smd_kleeb
+
+
+0
+23
+23
+footprints
+rp2040-zero-tht-pads-cutout_kleeb
+
+
+0
+33
+33
+footprints
+rp2040-zero-tht-pads_kleeb
+
+
+0
+33
+33
+footprints
+rp2040-zero-tht_kleeb
+
+
+0
+23
+23
 footprints
 weact-dcdc-footprint-file
 

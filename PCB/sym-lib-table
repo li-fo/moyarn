@@ -4,4 +4,5 @@
   (lib (name "TMC2209_SILENTSTEPSTICK_snapeda")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/TMC2209_SILENTSTEPSTICK_snapeda.kicad_sym")(options "")(descr ""))
   (lib (name "weact-dcdc-schematic")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/weact-dcdc-schematic.kicad_sym")(options "")(descr ""))
   (lib (name "weact-usbpd-to-dc-schematic")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/weact-usbpd-to-dc-schematic.kicad_sym")(options "")(descr ""))
+  (lib (name "mcu_kleeb")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/mcu_kleeb.kicad_sym")(options "")(descr ""))
 )
