@@ -1982,6 +1982,26 @@
 			)
 		)
 	)
+	(text_box "RP2040 5V+ 인풋 안됨\n\nEncoder / RGB1 GND 가 연결될 곳이 없음 -> mcu gnd 연결 해야 하는데!!!\n\nPCB 라우팅을 위해 SW/DT/CLK 핀 배열 바꿈\nPCB 라우팅을 위해 RGB 핀 배열 바꿈"
+		(exclude_from_sim no)
+		(at 235.585 40.64 0)
+		(size 40.005 24.765)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Noto Sans CJK KR Black")
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "13ee5c98-8e43-4d87-917a-2916bca9f28b")
+	)
 	(global_label "MB2"
 		(shape input)
 		(at 104.14 133.35 0)
@@ -2158,7 +2178,7 @@
 			)
 		)
 	)
-	(global_label "EN-SW"
+	(global_label "EN-CLK"
 		(shape input)
 		(at 193.04 53.34 180)
 		(fields_autoplaced yes)
@@ -2170,7 +2190,7 @@
 		)
 		(uuid "35ab0974-2595-4732-a354-968b9b608760")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.342 53.34 0)
+			(at 182.4348 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +2420,7 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "V5-"
 		(shape input)
 		(at 168.91 110.49 0)
 		(fields_autoplaced yes)
@@ -2510,7 +2530,7 @@
 			)
 		)
 	)
-	(global_label "LED-R"
+	(global_label "LED-B"
 		(shape input)
 		(at 218.44 58.42 0)
 		(fields_autoplaced yes)
@@ -2598,7 +2618,7 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "V5-"
 		(shape input)
 		(at 199.39 118.11 0)
 		(fields_autoplaced yes)
@@ -2642,7 +2662,7 @@
 			)
 		)
 	)
-	(global_label "EN-CLK"
+	(global_label "EN-SW"
 		(shape input)
 		(at 193.04 58.42 180)
 		(fields_autoplaced yes)
@@ -2654,7 +2674,7 @@
 		)
 		(uuid "9c6f2f81-e7f7-4f08-8ff2-c3d3e0c45ff7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.4348 58.42 0)
+			(at 183.342 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,7 +2684,7 @@
 			)
 		)
 	)
-	(global_label "LED-B"
+	(global_label "LED-R"
 		(shape input)
 		(at 218.44 63.5 0)
 		(fields_autoplaced yes)
@@ -4005,7 +4025,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dfd9b058-0a08-4fda-b472-7497cb555bb3")
 		(property "Reference" "U4"
 			(at 205.74 35.56 0)
@@ -4024,7 +4043,7 @@
 			)
 		)
 		(property "Footprint" "footprints:rp2040-zero-tht_kleeb"
-			(at 196.85 46.99 0)
+			(at 183.388 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
