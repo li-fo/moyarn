@@ -1982,26 +1982,6 @@
 			)
 		)
 	)
-	(text_box "RP2040 5V+ 인풋 안됨\n\nEncoder / RGB1 GND 가 연결될 곳이 없음 -> mcu gnd 연결 해야 하는데!!!\n\nPCB 라우팅을 위해 SW/DT/CLK 핀 배열 바꿈\nPCB 라우팅을 위해 RGB 핀 배열 바꿈"
-		(exclude_from_sim no)
-		(at 235.585 40.64 0)
-		(size 40.005 24.765)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Noto Sans CJK KR Black")
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "13ee5c98-8e43-4d87-917a-2916bca9f28b")
-	)
 	(global_label "MB2"
 		(shape input)
 		(at 104.14 133.35 0)
