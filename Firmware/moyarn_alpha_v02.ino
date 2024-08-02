@@ -1,5 +1,3 @@
-// MCU Change to RP2040
-
 #include <Arduino.h>
 #include <TMCStepper.h>
 
@@ -9,24 +7,24 @@ const uint8_t UART_RX = 1;
 const uint8_t UART_TX = 0;
 
 // Rotary Encoder pins- PCB Alpha 01
-const uint8_t ENCODER_CLK = 26;
-const uint8_t ENCODER_DT = 27;
-const uint8_t ENCODER_SW = 28;
+// const uint8_t ENCODER_CLK = 26;
+// const uint8_t ENCODER_DT = 27;
+// const uint8_t ENCODER_SW = 28;
 
 // Rotary Encoder pins - PCB Alpha 02
-// const uint8_t ENCODER_CLK = 28;
-// const uint8_t ENCODER_DT = 27;
-// const uint8_t ENCODER_SW = 26;
+const uint8_t ENCODER_CLK = 28;
+const uint8_t ENCODER_DT = 27;
+const uint8_t ENCODER_SW = 26;
 
 // RGB LED pins - PCB Alpha 01
-const uint8_t LED_R = 6;
-const uint8_t LED_G = 7;
-const uint8_t LED_B = 8;
+// const uint8_t LED_R = 6;
+// const uint8_t LED_G = 7;
+// const uint8_t LED_B = 8;
 
 // RGB LED pins - PCB Alpha 02
-// const uint8_t LED_R = 8;
-// const uint8_t LED_G = 7;
-// const uint8_t LED_B = 6;
+const uint8_t LED_R = 8;
+const uint8_t LED_G = 7;
+const uint8_t LED_B = 6;
 
 // ws2812 d-in
 const uint8_t ws2812_din = 9;
